@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*DEBUG MODE*/
+.debug{
+
+    header{
+        padding:0.5rem;
+        height: 80px;
+        background-color: red;
+
+        nav{
+        padding-top: 1rem;
+        height: 100%;
+        background-color: aqua;
+
+        div{
+            height: 50%;
+            width: 50%;
+            background-color: yellow;
+        }
+    }
+        
+    }
+
+    main{
+        height: 4950px;
+            background-color: green;
+
+
+        .jumbotron{
+            height: 14.85%;
+            background-color:blueviolet;
+            
+        }
+
+        section .business-plan{
+            
+        }
+
+    }
+
+}
+
+
+/*END DEBUG MODE*/
+
+
+/*GLOBAL RULES*/
+body *{
+    border:  1px dashed black;
+
+}
+/*END GLOBAL RULES*/
+
+
+/*UTILITY*/
+.d-flex{
+    display: flex;
+}
+
+.just-bet{
+    justify-content: space-between;
+}
+/*END UTILITY*/
+
+
+/*HEADER SECTION*/
+
+header{
+    padding: 0.5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+
+    div{
+        height: 50%;
+    }
+}
