@@ -32,32 +32,32 @@
 
 
         .jumbotron{
-            height: 14.85%;
+            height: 718px;
             background-color:blueviolet;
-            padding-top: 2.5rem;
+            
             
             .container{
-                height: 100%;
+                height: 718px;
                 background-color: lightgrey;
-                padding-top: 2rem;
+                
 
                 h1{
-                    height: 30%;
+                    height: 215px;
                     background-color: burlywood;
                 }
 
                 .row-box{
-                    height: 395px;
+                    height: 503px;
                     display: flex;
 
-                    .col-35{
-                        height: 395px;
+                   .col-35{
+                        height: 503px;
                         width: 350px;
                         background-color: aqua;
                     }
 
                     .col-65{
-                        height: 395px;
+                        height: 503px;
                         width: 780px;
                         background-color: rgb(9, 176, 176);
 
@@ -71,9 +71,16 @@
             
         }
 
-        section .business-plan{
-            height: 28.70%;
+        #business-plan{
+            height: 1425px;
             background-color: brown;
+            padding-top: 5rem;
+
+            .container{
+                height: 100%;
+                background-color: lightgrey;
+            }
+
 
         }
 
