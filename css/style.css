@@ -34,11 +34,47 @@
         .jumbotron{
             height: 14.85%;
             background-color:blueviolet;
+            padding-top: 2.5rem;
+            
+            .container{
+                height: 100%;
+                background-color: lightgrey;
+                padding-top: 2rem;
+
+                h1{
+                    height: 30%;
+                    background-color: burlywood;
+                }
+
+                .row-box{
+                    height: 395px;
+                    display: flex;
+
+                    .col-35{
+                        height: 395px;
+                        width: 350px;
+                        background-color: aqua;
+                    }
+
+                    .col-65{
+                        height: 395px;
+                        width: 780px;
+                        background-color: rgb(9, 176, 176);
+
+                    }
+                }
+
+
+            }
+
+            
             
         }
 
         section .business-plan{
-            
+            height: 28.70%;
+            background-color: brown;
+
         }
 
     }
@@ -65,6 +101,19 @@ body *{
 .just-bet{
     justify-content: space-between;
 }
+
+.container{
+    width: 70%;
+    max-width: 1176px;
+    margin: auto;
+}
+
+.container-sm{
+    width: 60%;
+    max-width: 1176px;
+    margin: auto;
+
+}
 /*END UTILITY*/
 
 
@@ -82,4 +131,11 @@ nav{
     div{
         height: 50%;
     }
+}
+
+
+/*MAIN SECTION*/
+
+.jumbotron{
+    
 }
