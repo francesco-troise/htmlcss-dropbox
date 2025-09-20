@@ -46,7 +46,7 @@
                     background-color: burlywood;
                 }
 
-                .row-box{
+                .col-box{
                     height: 503px;
                     display: flex;
 
@@ -74,12 +74,61 @@
         #business-plan{
             height: 1425px;
             background-color: brown;
-            padding-top: 5rem;
+            
 
-            .container{
-                height: 100%;
+            .container-sm{
+                height: 1420px;
                 background-color: lightgrey;
+
+                h2{
+                    height: 40px;
+                    background-color: burlywood;
+
+                }
+
+                .btn-box{
+                    height: 25px;
+                    background-color: yellow ;
+
+                }
+
+                .row{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 5px;
+                   
+                   
+
+                    .col-33{
+                        
+                        width: calc(100% / 3);
+
+                        .card{
+                            height: 655px;
+                            background-color: pink;
+                            width: 250px;
+
+                        }
+                    
+                    .col-100{
+                        width: 100%;
+                        
+                        
+
+                        .card{
+                            
+                            background-color: pink;
+                        }
+                    }
+
+                    }
+
+                }
+
+           
+           
             }
+
 
 
         }
@@ -143,6 +192,3 @@ nav{
 
 /*MAIN SECTION*/
 
-.jumbotron{
-    
-}
