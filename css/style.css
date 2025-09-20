@@ -266,3 +266,22 @@ h1{
         margin-bottom: -4.5rem;
     }
 }
+
+
+#business-plan{
+    margin-top: 7rem;
+
+    h2{
+        margin-bottom: 2rem;
+    }
+
+    .btn-box{
+        margin-bottom: 2rem;
+    }
+}
+
+.radio-btn,
+.radio-btn2{
+    margin-right: 2rem;
+    color: gray
+}
