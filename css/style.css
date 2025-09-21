@@ -170,6 +170,13 @@ img {
     width: 100%;
 }
 
+#btn-team-enterprise{
+    a{
+        align-self: flex-start;
+    }
+}
+
+
 /*END GLOBAL RULES*/
 
 
@@ -178,6 +185,7 @@ img {
 
 .d-flex {
     display: flex;
+    justify-content: space-between;
 
 }
 
@@ -194,13 +202,13 @@ img {
 
 .btn {
     display: inline-block;
-    padding: 0.2rem 0.6rem;
+    text-align: center;
+    padding: 0.4rem 0.55rem;
     border-radius: 0.15rem;
     background-color: var(--btn-bg-color);
     color: var(--btn-txt-color);
     text-decoration: none;
-    /*It's redundant, but useful in card*/
-
+   
 }
 
 /*END UTILITY*/
@@ -253,8 +261,6 @@ h1 {
 }
 
 .col-35 {
-    display: flex;
-    flex-direction: column;
     width: 35%;
 
     .cta {
@@ -332,6 +338,7 @@ h1 {
 
 .card-header {
     text-align: center;
+    padding: 5px 0;
     border-bottom: 1px solid gray;
 }
 
@@ -359,9 +366,11 @@ h1 {
         /*in card, the black icons are already specified*/
     }
 
+
     .archiving {
         color: var(--card-txt);
     }
+
 
     .premium-features {
         color: var(--card-txt);
@@ -376,6 +385,7 @@ h1 {
 
     }
 
+
     .buy-now {
         color: var(--card-txt);
 
@@ -385,10 +395,12 @@ h1 {
         }
     }
 
+
     .separator {
         width: 50px;
         color: var(--card-txt);
     }
+
 
     ul {
 
@@ -415,21 +427,45 @@ h1 {
         margin-bottom: -0.5rem;
     }
 
+
     .user{
         margin-top: 0.5rem;
     }
 
+
     .btn{
         margin-top: 0.65rem;
     }
+
 
     .separator{
         margin-top: 0.35rem;
         margin-bottom: 0.35rem;
     }
 
+
     .price-enterprise{
         margin-bottom: 20px;
     }
 }
 /*fine stilizzazione distanze card-body*/
+
+
+/*CARD-BODY QUARTA CARD*/
+.card-body-TE{
+    padding: 0 0.75rem;
+
+    span{
+        font-style: italic;
+        font-size: 11px;
+    }
+    div:last-of-type{
+        width: 66%;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+
+    }
+}
+/*END CARD-BODY QUARTA CARD*/
+
+
