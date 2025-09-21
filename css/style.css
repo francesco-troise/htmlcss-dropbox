@@ -210,6 +210,10 @@ img {
 
 header {
     padding: 0.5rem;
+    
+    ul{
+        list-style: none;
+    }
 }
 
 .nav-header {
@@ -272,7 +276,16 @@ h1 {
 }
 
 
+.col-33 {
+    width: calc(100% / 3);
+    padding: 1rem;
 
+}
+
+.col-100{
+    width: 100%;
+    padding: 1rem;
+}
 
 #business-plan {
     margin-top: 7rem;
@@ -286,30 +299,28 @@ h1 {
     }
 }
 
+
 .radio-btn,
 .radio-btn2 {
     margin-right: 2rem;
     color: gray
 }
 
+
 .row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
+    align-items: stretch;
 }
 
-
-.col-33 {
-    width: calc(100% / 3);
-    padding: 1rem;
-
-}
 
 .card {
     border: 1px solid gray;
-
+    height: 100%;
+    
     *:not(h3):not(h4):not(i) {
-        font-size: small;
+        font-size:medium;
     }
 
     i {
@@ -324,11 +335,10 @@ h1 {
     border-bottom: 1px solid gray;
 }
 
+
 .txt-card-header {
     color: var(--card-txt);
 }
-
-
 
 
 .card-body {
@@ -416,6 +426,10 @@ h1 {
     .separator{
         margin-top: 0.35rem;
         margin-bottom: 0.35rem;
+    }
+
+    .price-enterprise{
+        margin-bottom: 20px;
     }
 }
 /*fine stilizzazione distanze card-body*/
