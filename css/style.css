@@ -535,4 +535,47 @@ h1 {
         color: blue;
     }
 }
+/*END SECTION TEAM*/
 
+/*FOOTER*/
+footer{
+    margin-top: 8rem;
+    background-color: #000000;
+    color: var(--card-txt);
+
+    ul{
+        list-style: none;
+        margin-top: 0.5rem;
+
+        li{
+            padding: 0.3rem 0;
+        }
+        
+    }
+
+
+    .link-box{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    hr{
+        width: 65px;
+        margin-left: 45px;
+    }
+
+    .logo-footer{
+        display: flex;
+        justify-content: start;
+        margin-top: 2.5rem;
+        margin-left: 45px;
+
+        img{
+            margin: 0;
+            padding: 0;
+            display: block;
+            
+        }
+       
+    }
+}
