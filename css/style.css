@@ -524,4 +524,15 @@ h1 {
    
 }
 
+/*END SECTION OPERATIONS*/
+
+/*SECTION TEAM*/
+
+#team{
+    margin-top: 6rem;
+
+    a{
+        color: blue;
+    }
+}
 
